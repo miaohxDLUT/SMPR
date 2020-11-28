@@ -1,5 +1,7 @@
 # SMPR
 
+Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](https://arxiv.org/abs/2006.15576), by Junqi Lin, Huixin Miao, Junjie Cao, Zhixun Su and Risheng Liu.
+
 ## get start
 
 conda install pytorch=1.4.0 cudatoolkit=10.1 torchvision=0.5.0
