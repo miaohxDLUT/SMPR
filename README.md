@@ -30,3 +30,8 @@ You can now evaluate the models on the COCO val2017 split:
 
 ```
 ./tools/dist_test.sh configs/SMPR/ResNet_50.py work_dirs/r50.pth 4 --eval keypoints --options "jsonfile_prefix=./work_dirs/r50"
+
+## Acknowledgment
+
+We would like to thank MMDetection team for producing this great object detection toolbox!
+
