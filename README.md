@@ -4,13 +4,17 @@ Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](
 
 ## Getting Started
 
+conda create -n mmdet python=3.7
+
+conda activate mmdet
+
 conda install pytorch=1.4.0 cudatoolkit=10.1 torchvision=0.5.0
 
 pip install cython
 
 git clone https://github.com/cocodataset/cocoapi.git
 
-cd coco/PythonAPI
+cd cocoapi/PythonAPI
 
 python setup.py build_ext --inplace
 
