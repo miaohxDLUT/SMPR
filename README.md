@@ -63,3 +63,6 @@ You can now evaluate the models on the COCO val2017 split:
 
 We would like to thank MMDetection team for producing this great object detection toolbox!
 
+## License
+
+This project is released under the [Apache 2.0 license](LICENSE).
