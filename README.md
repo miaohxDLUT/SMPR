@@ -10,7 +10,9 @@ Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](
 
 Results on test-dev
 
+
 Backbone | mAP | AP^{50} | AP^{75} | AP^{M} | AP^{L}
+--- | --- | --- | ---| --- | ---
 ResNet50 | 62.6 |85.9 | 68.6 | 56.1 | 71.7
 ResNet50 (multi-testing) | 65.3 | 87.9 | 72.1 | 59.8 | 73.3
 HRNet-w32 | 68.2 | 88.7 | 75.3 | 63.3 | 75.4
