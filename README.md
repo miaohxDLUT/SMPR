@@ -22,6 +22,8 @@ python setup.py build_ext install
 
 pip install -r requirements.txt
 
+pip install Pillow==6.2.2
+
 pip install -v -e .
 
 ## Pretrained Models
