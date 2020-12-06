@@ -8,7 +8,7 @@ Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](
 
 ## Results
 
-Results on test-dev
+Results on COCO test-dev.
 
 
 Backbone | mAP | AP^{50} | AP^{75} | AP^{M} | AP^{L}
