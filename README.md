@@ -2,6 +2,10 @@
 
 Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](https://arxiv.org/abs/2006.15576), by Junqi Lin, Huixin Miao, Junjie Cao, Zhixun Su and Risheng Liu.
 
+![vis1](figs/1.jpg)
+
+![vis2](figs/2.jpg)
+
 ## Getting Started
 
 conda create -n mmdet python=3.7
