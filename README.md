@@ -26,6 +26,23 @@ pip install Pillow==6.2.2
 
 pip install -v -e .
 
+## Data preprocessing 
+
+put train2017 and val2017 in data/coco
+
+put person_keypoints_train2017.json and person_keypoints_val2017.json in data/coco/annotations
+
+cd data/coco/annotations
+
+- generate 'person_keypoints_train2017_pesudobox.json'
+
+python pesudo_box_train.py
+
+- generate 'person_keypoints_val2017_pesudobox.json'
+
+python pesudo_box_val.py
+
+
 ## Pretrained Models
 
 You can download the trained model on [Baidu Yun](https://pan.baidu.com/s/1S_7s_tfIHlqvCCKWFXyWGA)，with the extraction code：aaaa
