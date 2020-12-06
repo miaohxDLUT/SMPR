@@ -34,11 +34,11 @@ put person_keypoints_train2017.json and person_keypoints_val2017.json in data/co
 
 cd data/coco/annotations
 
-- generate 'person_keypoints_train2017_pesudobox.json'
+% generate 'person_keypoints_train2017_pesudobox.json'
 
 python pesudo_box_train.py
 
-- generate 'person_keypoints_val2017_pesudobox.json'
+% generate 'person_keypoints_val2017_pesudobox.json'
 
 python pesudo_box_val.py
 
