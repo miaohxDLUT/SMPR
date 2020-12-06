@@ -6,6 +6,16 @@ Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](
 
 ![vis2](figs/2.jpg)
 
+## Results
+
+Results on test-dev
+
+Backbone | mAP | AP^{50} | AP^{75} | AP^{M} | AP^{L}
+ResNet50 | 62.6 |85.9 | 68.6 | 56.1 | 71.7
+ResNet50 (multi-testing) | 65.3 | 87.9 | 72.1 | 59.8 | 73.3
+HRNet-w32 | 68.2 | 88.7 | 75.3 | 63.3 | 75.4
+HRNet-w32 (multi-testing) | 70.2 | 89.7 | 77.5 | 65.9 | 77.2
+
 ## Getting Started
 
 conda create -n mmdet python=3.7
