@@ -2,9 +2,11 @@
 
 Code repository for the paper [SMPR: Single-Stage Multi-Person Pose Regression](https://arxiv.org/abs/2006.15576), by Junqi Lin, Huixin Miao, Junjie Cao, Zhixun Su and Risheng Liu.
 
-![vis1](figs/1.jpg)
+'''
+[vis1](figs/1.jpg)
 
-![vis2](figs/2.jpg)
+[vis2](figs/2.jpg)
+'''
 
 ## Results
 
@@ -13,8 +15,8 @@ Results on COCO test-dev.
 
 Backbone | mAP | AP^{50} | AP^{75} | AP^{M} | AP^{L}
 --- | --- | --- | ---| --- | ---
-ResNet50 | 62.6 |85.9 | 68.6 | 56.1 | 71.7
-ResNet50 (multi-testing) | 65.3 | 87.9 | 72.1 | 59.8 | 73.3
+ResNet50 | 64.7 | 87.3 | 71.2 |  59.1 | 72.7
+ResNet50 (multi-testing) |  67.1 | 88.5 | 74.2 |  62.0 | 74.7
 HRNet-w32 | 68.2 | 88.7 | 75.3 | 63.3 | 75.4
 HRNet-w32 (multi-testing) | 70.2 | 89.7 | 77.5 | 65.9 | 77.2
 
